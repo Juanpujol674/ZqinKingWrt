@@ -109,7 +109,8 @@ install_small8() {
         v2dat mosdns luci-app-mosdns adguardhome luci-app-adguardhome ddns-go luci-app-ddns-go taskd luci-lib-xterm \
         luci-lib-taskd luci-app-store quickstart luci-app-quickstart luci-app-istorex luci-app-cloudflarespeedtest \
         luci-theme-argon netdata luci-app-netdata lucky luci-app-lucky luci-app-openclash \
-        luci-app-mihomo luci-app-homeproxy luci-app-unblockmusic luci-app-gecoosac luci-app-dockerman luci-app-easymesh \
+        ca-bundle curl yq firewall4 ip-full kmod-inet-diag kmod-nft-tproxy kmod-tun luci-lib-docker dockerd luci-lib-jsonc ttyd docker \
+        luci-app-mihomo luci-app-homeproxy luci-app-unblockmusic luci-app-gecoosac luci-app-dockerman \
 }
 
 install_feeds() {
